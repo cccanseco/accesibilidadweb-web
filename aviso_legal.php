@@ -11,7 +11,6 @@
 	<meta name="keywords" content="" />
 	<meta name="title" content="Desarrollo de Webs Accesibles" />
 
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 
 
 	<!-- Metadatos de navegacion semantica -->

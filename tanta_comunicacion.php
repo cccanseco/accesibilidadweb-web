@@ -11,7 +11,6 @@
 	<meta name="description" content="Llámanos al 91 440 10 40 y solicítanos información sin compromiso en nuestra web." />
 	<meta name="keywords" content="TANTA Comunicación, Grupo Onetec" />
 	<meta name="title" content="Accesibilidad Web - Quiénes somos" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />

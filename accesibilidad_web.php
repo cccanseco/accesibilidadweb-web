@@ -11,7 +11,6 @@
 	<meta name="description" content="El fin explícito de la Accesibilidad está en proporcionar acceso a la información sin limitación alguna por razón de deficiencia, discapacidad, o minusvalía. Consúltanos, disponemos de un equipo experto." />
 	<meta name="keywords" content="accesibilidad, accesibilidad web, web accesible" />
 	<meta name="title" content="Accesibilidad Web - Desarrollo de Web Accesible" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />

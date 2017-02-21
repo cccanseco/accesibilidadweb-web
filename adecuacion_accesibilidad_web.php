@@ -11,7 +11,6 @@
 	<meta name="description" content="Tanto para web sites ya existentes como para nuevos desarrollos, lo planificamos, lo desarrollamos y nos encargamos también de su futuro mantenimiento. Consúltanos." />
 	<meta name="keywords" content="auditoría accesibilidad, mantenimiento, accesibilidad web, directrices de accesibilidad, WAI, UNE 139803, Disposición Adicional 5º, LSSICE, eEurope 2002, AENOR, Ley de Impulso de la Sociedad de la Información, LISI" />
 	<meta name="title" content="Accesibilidad web - Consultoríaa en Accesibilidad Web" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />

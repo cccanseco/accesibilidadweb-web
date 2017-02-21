@@ -11,7 +11,6 @@
 	<meta name="description" content="Estudiamos el nivel de Accesibilidad Web en el que se encuentra un sitio, realizamos el informe de grado de accesibilidad y recomendaciones sobre alternativas de adecuación y de su futuro mantenimiento. Consúltanos" />
 	<meta name="keywords" content="auditoría accesibilidad, mantenimiento, accesibilidad web, directrices de accesibilidad, WAI, UNE 139803, Disposición Adicional 5º, LSSICE, eEurope 2002, AENOR, Ley de Impulso de la Sociedad de la Información, LISI" />
 	<meta name="title" content="Auditoría en accesibilidad Web. Accesibilidad web.com" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />
