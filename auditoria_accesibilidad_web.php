@@ -173,7 +173,7 @@
 							<li>
 								<label for="empresa">Tu web:</label>
 								<input type="text" id="web" name="web" class="text" />
-							</li>														
+							</li>
 							<li class="acepto">
 								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" target="_blank">condiciones legales</a></label>
 							</li>
@@ -192,18 +192,6 @@
 		</div>
 
 	</div>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-203003-27']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+	<?php include('./includes/google-analytics.php'); ?>
 </body>
 </html>

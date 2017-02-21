@@ -86,10 +86,10 @@
 				<li><strong>Desarrollo de la web del Consejo General del Notariado</strong>: nivel doble A de Accesibilidad. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.notariado.org" target="_blank">www.notariado.org</a></li>
 				<li><strong>Foro de Reputación Corporativa</strong>: nivel doble A de Accesibilidad. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.reputacioncorporativa.org" target="_blank">www.reputacioncorporativa.org</a> </li>
 				<li><strong>Desarrollo del Gabinete de Prensa de DANONE </strong>: nivel A de Accesibilidad. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.prensadanone.es" target="_blank">www.prensadanone.es</a> </li>
-				<li><strong>ACCIONA</strong>: nivel doble A de Accesibilidad. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.acciona.es" target="_blank">www.acciona.es</a>. Certificado por <acronym title="Asociación Española de Normalización y Certificación">AENOR</acronym> según la Norma UNE 139803, <em>"Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la web"</em>. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.tawdis.net/taw3/cms/es/premio/premiados.html" target="_blank">Finalista premios TAW 2008</a>.</li>				
+				<li><strong>ACCIONA</strong>: nivel doble A de Accesibilidad. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.acciona.es" target="_blank">www.acciona.es</a>. Certificado por <acronym title="Asociación Española de Normalización y Certificación">AENOR</acronym> según la Norma UNE 139803, <em>"Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la web"</em>. <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.tawdis.net/taw3/cms/es/premio/premiados.html" target="_blank">Finalista premios TAW 2008</a>.</li>
 				<li><strong>INDRA</strong>. Servicios de adecuación de Accesibilidad para Indra: <acronym title="Aeropuertos Españoles y Navegación Aérea">AENA</acronym>, Gis SIGMA (<a hreflang="en" title="abrir enlace externo en ventana nueva" rel="external" href="http://www.citizensonline.org.uk/e-inclusionawards_eu/finalists/eaccessibility" target="_blank">finalista en los premios e-inclusion 2008 en la categoría de e-Accessibility</a>, <a title="abrir enlace externo en ventana nueva" rel="external" href="http://www.tawdis.net/taw3/cms/es/premio/ii_edicion.html" target="_blank">premio TAW 2006</a> al mejor proyecto de Accesibilidad Web), gobierno de Aragón, presidencia de la Comunidad de Madrid, etc.,</li>
 				<li><strong>Desarrollo de aplicación de gestión de paneles de publicidad para la <acronym title="Organización Nacional de Ciegos Españoles">ONCE</acronym>.</strong></li>
-				
+
 			</ul>
 
 <p class="copy">Para un presupuesto a medida rellena el siguiente formulario.</p>
@@ -138,7 +138,7 @@
 							<li>
 								<label for="empresa">Tu web:</label>
 								<input type="text" id="web" name="web" class="text" />
-							</li>														
+							</li>
 							<li class="acepto">
 								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" target="_blank">condiciones legales</a></label>
 							</li>
@@ -157,18 +157,6 @@
 		</div>
 
 	</div>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-203003-27']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+	<?php include('./includes/google-analytics.php'); ?>
 </body>
 </html>
