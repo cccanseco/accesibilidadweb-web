@@ -11,7 +11,6 @@
 	<meta name="description" content="Proyectos Accesibilidad Web, consultoría y formación en accesibilidad Web." />
 	<meta name="keywords" content="accesibilidad, accesibilidad web, web accesible" />
 	<meta name="title" content="Accesibilidad Web. Hacemos tu página web accesible accesible." />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />

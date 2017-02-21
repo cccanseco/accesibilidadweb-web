@@ -11,7 +11,6 @@
 	<meta name="description" content="Somos TANTA, compañía integrada en el Grupo OneTec, cuya actividad se centra en el suministro de soluciones y servicios en el ámbito de las Nuevas Tecnologías y la Comunicación. Consúltanos." />
 	<meta name="keywords" content="accesibilidad, accesibilidad web, experiencia accesibilidad web" />
 	<meta name="title" content="Accesibilidad Web - Experiencia" />
-  	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />

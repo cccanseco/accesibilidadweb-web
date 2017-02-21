@@ -10,7 +10,6 @@
 	<meta name="description" content="Acerca de la accesibilidad del sitio, accesibilidad web." />
 	<meta name="keywords" content="accesibilidad del sitio, accesibilidad XHTML CSS" />
 	<meta name="title" content="Accesibilidad Web - Accesibilidad del sitio" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 
 
 

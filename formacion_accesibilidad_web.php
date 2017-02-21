@@ -11,7 +11,6 @@
 	<meta name="description" content="Impartimos formación a medida en Accesibilidad Web dirigida tanto a desarrolladores como a responsables de internet. Consúltanos" />
 	<meta name="keywords" content="formación accesibilidad web, WAI, nivel de accesibilidad web" />
 	<meta name="title" content="Accesibilidad Web - Formación en Accesibilidad Web" />
-	<meta name="google-site-verification" content="CXFQiJ4JSVEaT_KYOvyN9b9PQ_KlMPeTblnRFodZuCg" />
 	<!-- Metadatos de navegacion semantica -->
 	<link rel="start" href="index.php" title="Página inicial" />
 	<link rel="index" href="index.php" title="Página inicial" />
