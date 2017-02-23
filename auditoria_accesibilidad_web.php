@@ -1,4 +1,4 @@
-<? require_once 'commons.php'; ?>
+<?php require_once 'commons.php'; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
@@ -74,10 +74,9 @@
 			<div id="content">
 				<h1>Auditoría en accesibilidad Web</h1>
 				<div class="text">
-			<p><strong>Auditor&iacute;a</strong> y estudio del nivel de <strong>Accesibilidad Web</strong> en el que se encuentra un sitio, realizaci&oacute;n de informe de grado de accesibilidad y recomendaci&oacute;n sobre alternativas de <strong>adecuaci&oacute;n</strong> y de su futuro mantenimiento, en funci&oacute;n del <strong>nivel de accesibilidad</strong> que se desee conseguir (<strong>A, AA, AAA</strong>).</p>
-			<span id="linkContact"><a href="#formContact" title="formulario de contacto">¡Contacta ahora!</a></span>
-
-			<p>Nos basamos en las <strong>directrices de Accesibilidad </strong> al contenido Web recomendadas por la <strong><acronym title="Web Accesibility Initiative" lang="en">WAI</acronym></strong> / <strong><acronym title="World Wide Web Consotium" lang="en">W3C</acronym></strong>, as&iacute; como en la norma espa&ntilde;ola <a href="http://www.inteco.es/frontinteco/files/frontIntecoAction.do;jsessionid=7ACA4271DEBACF2BF769CC6A2C3B1B2D?action=getFile&amp;fileID=50363" title="descargar UNE en formato PDF"><strong><acronym title="Una Norma Espa&ntilde;ola" lang="es">UNE</acronym> 139803:2004</strong></a>.</p>
+					<p><strong>Auditor&iacute;a</strong> y estudio del nivel de <strong>Accesibilidad Web</strong> en el que se encuentra un sitio, realizaci&oacute;n de informe de grado de accesibilidad y recomendaci&oacute;n sobre alternativas de <strong>adecuaci&oacute;n</strong> y de su futuro mantenimiento, en funci&oacute;n del <strong>nivel de accesibilidad</strong> que se desee conseguir (<strong>A, AA, AAA</strong>).</p>
+					<span id="linkContact"><a href="#formContact" title="formulario de contacto">¡Contacta ahora!</a></span>
+					<p>Nos basamos en las <strong>directrices de Accesibilidad </strong> al contenido Web recomendadas por la <strong><acronym title="Web Accesibility Initiative" lang="en">WAI</acronym></strong> / <strong><acronym title="World Wide Web Consotium" lang="en">W3C</acronym></strong>, as&iacute; como en la norma espa&ntilde;ola <a href="http://www.aenor.es/aenor/normas/normas/fichanorma.asp?tipo=N&codigo=N0032576" title="Ver la Norma UNE 139803:2004" title="Ver la Norma UNE:139803:2004"><strong><acronym title="Una Norma Espa&ntilde;ola" lang="es">UNE</acronym> 139803:2004</strong></a>.</p>
 
 			<h2>Presupuestos tipo para empresas</h2>
 			<table cellspacing="0" summary="Tabla de presupuestos de diferentes auditorías">
@@ -131,14 +130,14 @@
 
 <div id="contact">
 					<h2 class="title">¡Contacta con nosotros ahora!</h2>
-					<? if(!empty ($error)) { ?>
+					<?php if(!empty ($error)) { ?>
 					<div class="msgError">
 						<ul class="errores">
-							<? if (!empty ($errorToken)){ ?>
+							<?php if (!empty ($errorToken)){ ?>
 							<li>(!) No se ha podido realizar el envío. Inténtalo de nuevo</li>
-							<? } ?>
-							<? if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
-						  <? if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
+							<?php } ?>
+							<?php if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
+						  <?php if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
 							 else
 								if(!empty ($mailVacio)) {?><li>	(!) El campo 'Correo electr&oacute;nico' es obligatorio</li><?php }?>
 						</ul>
@@ -174,7 +173,7 @@
 								<input type="text" id="web" name="web" class="text" />
 							</li>
 							<li class="acepto">
-								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" target="_blank">condiciones legales</a></label>
+								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" title="Ver las condiciones legales">condiciones legales</a></label>
 							</li>
 						</ul>
 						<span class="submit"><span><input type="submit" value="Solicitar información" /></span></span>

@@ -1,4 +1,4 @@
-<? require_once 'commons.php'; ?>
+<?php require_once 'commons.php'; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
@@ -155,14 +155,14 @@
 
 <div id="contact">
 					<h2 class="title">¡Contacta con nosotros ahora!</h2>
-					<? if(!empty ($error)) { ?>
+					<?php if(!empty ($error)) { ?>
 					<div class="msgError">
 						<ul class="errores">
-							<? if (!empty ($errorToken)){ ?>
+							<?php if (!empty ($errorToken)){ ?>
 							<li>(!) No se ha podido realizar el envío. Inténtalo de nuevo</li>
-							<? } ?>
-							<? if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
-						  <? if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
+							<?php } ?>
+							<?php if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
+						  <?php if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
 							 else
 								if(!empty ($mailVacio)) {?><li>	(!) El campo 'Correo electr&oacute;nico' es obligatorio</li><?php }?>
 						</ul>
@@ -198,7 +198,7 @@
 								<input type="text" id="web" name="web" class="text" />
 							</li>
 							<li class="acepto">
-								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" target="_blank">condiciones legales</a></label>
+								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" title="Ver las condiciones legales">condiciones legales</a></label>
 							</li>
 						</ul>
 						<span class="submit"><span><input type="submit" value="Solicitar información" /></span></span>

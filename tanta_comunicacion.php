@@ -1,4 +1,4 @@
-<? require_once 'commons.php'; ?>
+<?php require_once 'commons.php'; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
@@ -75,14 +75,14 @@
 				<div id="contact" class="section">
 					<h1 class="title">&iexcl; Contacta con nosotros ahora !</h1>
 					<div class="text">
-					<? if(!empty ($error)) { ?>
+					<?php if(!empty ($error)) { ?>
 					<div class="msgError">
 						<ul class="errores">
-							<? if (!empty ($errorToken)){ ?>
+							<?php if (!empty ($errorToken)){ ?>
 							<li>(!) No se ha podido realizar el envío. Inténtalo de nuevo</li>
-							<? } ?>
-							<? if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
-						  <? if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
+							<?php } ?>
+							<?php if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
+						  <?php if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
 							 else
 								if(!empty ($mailVacio)) {?><li>	(!) El campo 'Correo electr&oacute;nico' es obligatorio</li><?php }?>
 
@@ -135,7 +135,7 @@
 				Madrid, 28037<br />
 				Teléfono: 91 440 10 40<br />
 				Fax: 91 304 91 24<br />
-				<a href="http://www.tantacom.com/" rel="external" title="abrir enlace externo en ventana nueva"><strong>http://www.tantacom.com</strong></a>
+				<a href="https://tantacom.com/" rel="external" title="abrir enlace externo en ventana nueva"><strong>https://tantacom.com</strong></a>
 				</p>
 					</div>
 				</div>

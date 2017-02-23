@@ -1,4 +1,4 @@
-<? require_once 'commons.php'; ?>
+<?php require_once 'commons.php'; ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
@@ -75,8 +75,8 @@
 				<h1>¿Necesitas ayuda en Accesibilidad Web?</h1>
 				<div class="text">
 				<p>En Accesibilidadweb.com podemos ayudarte con la accesibilidad de tu página.</p>
-				<p>Llevamos desde el 2004 desarrollando proyectos web accesibles, realizando auditorías de accesibilidad, formando a profesionales y realizando adecuaciones previas a la certificación de <a href="http://www.accesible.aenor.es">AENOR</a>.</p>
-				<p>Uno de nuestros casos más representativos con AENOR ha sido la obtención por parte del sitio Web de <a href="http://www.acciona.es"><strong>ACCIONA</strong></a> del certificado de Accesibilidad según la <strong><a href="http://www.inteco.es/Accesibilidad/Normativa_1/Descarga/DescargaUNE_139803">Norma UNE 139803</a></strong>, "Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la web", con un nivel de cumplimiento "AA", pasando a ser la <strong>primera empresa</strong> del <a href="http://es.wikipedia.org/wiki/IBEX-35"><strong>IBEX-35</strong></a> en <strong>obtener dicho certificado.</strong></p>
+				<p>Llevamos desde el 2004 desarrollando proyectos web accesibles, realizando auditorías de accesibilidad, formando a profesionales y realizando adecuaciones previas a la certificación de <a href="http://www.aenor.es/aenor/certificacion/resp_social/accesibilidad_universal.asp" title="Ir a la Web de AENOR">AENOR</a>.</p>
+				<p>Uno de nuestros casos más representativos con AENOR ha sido la obtención por parte del sitio Web de <a href="http://www.acciona.es"><strong>ACCIONA</strong></a> del certificado de Accesibilidad según la <strong><a href="http://www.aenor.es/aenor/normas/normas/fichanorma.asp?tipo=N&codigo=N0032576" title="Ver la Norma UNE 139803:2004" title="Ver la Norma UNE 139803">Norma UNE 139803</a></strong>, "Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la web", con un nivel de cumplimiento "AA", pasando a ser la <strong>primera empresa</strong> del <a href="http://es.wikipedia.org/wiki/IBEX-35" title="Ver información sobre IBEX-35"><strong>IBEX-35</strong></a> en <strong>obtener dicho certificado.</strong></p>
 				<h2>¿Qué es la Accesibilidad Web?</h2>
 
 			<p>El fin expl&iacute;cito de la <strong>Accesibilidad</strong> est&aacute; en proporcionar acceso a la informaci&oacute;n sin limitaci&oacute;n alguna por raz&oacute;n de deficiencia, discapacidad, o minusval&iacute;a para que todas las personas puedan navegar por la red en cualquier condici&oacute;n.</p>
@@ -126,14 +126,14 @@
 
 				<div id="contact">
 					<h2 class="title">¡Contacta con nosotros ahora!</h2>
-					<? if(!empty ($error)) { ?>
+					<?php if(!empty ($error)) { ?>
 					<div class="msgError">
 						<ul class="errores">
-							<? if (!empty ($errorToken)){ ?>
+							<?php if (!empty ($errorToken)){ ?>
 							<li>(!) No se ha podido realizar el envío. Inténtalo de nuevo</li>
-							<? } ?>
-							<? if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
-						  <? if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
+							<?php } ?>
+							<?php if(!empty ($errorNombre)) { ?><li>(!) El campo 'Nombre' es obligatorio</li> <?php }?>
+						  <?php if(!empty ($mailIncorrecto)) {?><li> (!) El formato del campo 'Correo electr&oacute;nico' no es correcto</li><?php }
 							 else
 								if(!empty ($mailVacio)) {?><li>	(!) El campo 'Correo electr&oacute;nico' es obligatorio</li><?php }?>
 
@@ -170,7 +170,7 @@
 								<input type="text" id="web" name="web" class="text" />
 							</li>
 							<li class="acepto">
-								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" target="_blank">condiciones legales</a></label>
+								<label for="acepto"><input type="checkbox" id="acepto" name="acepto"> Acepto las <a href="aviso_legal.php" title="Ver las condiciones legales">condiciones legales</a></label>
 							</li>
 						</ul>
 						<span class="submit"><span><input type="submit" value="Solicitar información" /></span></span>

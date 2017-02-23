@@ -1,10 +1,10 @@
 <IfModule mod_rewrite.c>
-    Redirect 301 /accesibilidad.html http://www.accesibilidadweb.com/accesibilidad.php
-    Redirect 301 /accesibilidad_web.html http://www.accesibilidadweb.com/accesibilidad_web.php
-    Redirect 301 /adecuacion_accesibilidad_web.html http://www.accesibilidadweb.com/adecuacion_accesibilidad_web.php
-    Redirect 301 /aviso_legal.html http://www.accesibilidadweb.com/aviso_legal.php
-    Redirect 301 /experiencia_accesibilidad_web.html http://www.accesibilidadweb.com/experiencia_accesibilidad_web.php
-    Redirect 301 /formacion_accesibilidad_web.html http://www.accesibilidadweb.com/formacion_accesibilidad_web.php
-    Redirect 301 /index.html http://www.accesibilidadweb.com/index.php
-    Redirect 301 /tanta_comunicacion.html http://www.accesibilidadweb.com/tanta_comunicacion.php
+    Redirect 301 /accesibilidad.html /accesibilidad.php
+    Redirect 301 /accesibilidad_web.html /accesibilidad_web.php
+    Redirect 301 /adecuacion_accesibilidad_web.html /adecuacion_accesibilidad_web.php
+    Redirect 301 /aviso_legal.html /aviso_legal.php
+    Redirect 301 /experiencia_accesibilidad_web.html /experiencia_accesibilidad_web.php
+    Redirect 301 /formacion_accesibilidad_web.html /formacion_accesibilidad_web.php
+    Redirect 301 /index.html /index.php
+    Redirect 301 /tanta_comunicacion.html /tanta_comunicacion.php
 </IfModule>
